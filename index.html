@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0" >
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="css/estilos.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+  <header class="main-header">
+    <div class="container container--flex">
+      <div class="main-header__container">
+        <h1 class="main-header__title">LealMarket</h1>
+        <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+        <nav class="main-nav" id="main-nav">
+          <ul class="menu">
+            <li class="menu__item"><a href="" class="menu__link">Inicio</a></li>
+            <li class="menu__item"><a href="" class="menu__link">Nosotros</a></li>
+            <li class="menu__item"><a href="" class="menu__link">Caracteristicas</a></li>
+            <li class="menu__item"><a href="" class="menu__link">Tienda</a></li>
+            <li class="menu__item"><a href="" class="menu__link">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main-header__container">
+        <span class="main-header__txt">Necesitas Ayuda?</span>
+        <p class="main-header__txt"><i class="fa-brands fa-whatsapp"></i> Escribenos 0424-9104220</p>
+      </div>
+      <div class="main-header__container">
+        <a href="" class="main-header__link"><i class="fa-solid fa-user"></i></a>
+        <a href="" class="main-header__btn">Mi Carrito <i class="fas fa-shopping-cart"></i></a>
+        <input type="search" class="main-header__input" placeholder="Buscar productos"><i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+  </header>
+  <div class="container-slider">
+    <div class="slider" id="slider">
+      <div class="slider__section">
+        <img src="img/img1.png" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">Para Tu Despensa</h2>
+          <p class="slider__txt">Lo necesario y más</p>
+          <a href="" class="btn-shop">COMPRAR AHORA</a>
+        </div>
+      </div>
+      <div class="slider__section">
+        <img src="img/img2.png" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">Bebidas</h2>
+          <p class="slider__txt">Variedad de Bebidas</p>
+          <a href="" class="btn-shop">COMPRAR AHORA</a>
+        </div>
+      </div>
+      <div class="slider__section">
+        <img src="img/img3.png" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">Dulces</h2>
+          <p class="slider__txt">Tus antojos favoritos</p>
+          <a href="" class="btn-shop">COMPRAR AHORA</a>
+        </div>
+      </div>
+      <div class="slider__section">
+        <img src="img/img4.png" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">Cuidado Personal</h2>
+          <p class="slider__txt">Los mejores productos para tu salud</p>
+          <a href="" class="btn-shop">COMPRA AHORAR</a>
+        </div>
+      </div>
+      <div class="slider__section">
+        <img src="img/img5.png" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">Limpieza</h2>
+          <p class="slider__txt">Para el cuidado del hogar</p>
+          <a href="" class="btn-shop">COMPRA AHORAR</a>
+        </div>
+      </div>
+    </div>
+    <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+    <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+  </div>
+  <main class="main">
+    <div class="container">
+      <h2 class="main-title">Los mas comprados</h2>
+      <section class="container-products">
+        <div class="product">
+          <img src="img/listerine.png" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">Listerine</h3>
+            <span class="product__price">$13</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+        <div class="product">
+          <img src="img/pantene.png" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">Shampoo Pantene</h3>
+            <span class="product__price">$22</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+        <div class="product">
+          <img src="img/aceitedecoco.png" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">Aceite De Coco organico</h3>
+            <span class="product__price">$17</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+        <div class="product">
+          <img src="img/harinadealmendra.png" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">Harina de almendras</h3>
+            <span class="product__price">$24</span>
+          </div>
+          <i class="product__icon fas fa-cart-plus"></i>
+        </div>
+      </section>
+      <section class="container__testimonials">
+        <h2 class="section__title">Clientes Satisfechos</h2>
+        <h3 class="testimonial__title">Anamaria </h3>
+        <p class="testimonial__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, perferendis, animi! Numquam quasi similique, fuga sint. Nulla veritatis quia nemo, magni, necessitatibus impedit inventore, provident culpa repellat esse a quo.</p>
+      </section>
+    
+      <div class="container-editor">
+        <div class="editor__item">
+          <img src="img/tidepods.png" alt="" class="editor__img">
+          <p class="editor__circle">DISFRUTA DEL AROMA Y CUIDADO</p>
+        </div>
+        <div class="editor__item">
+          <img src="img/centrum.png" alt="" class="editor__img">
+          <p class="editor__circle">MEJORA TU CALIDAD DE VIDA</p>
+        </div>
+      </div>
+      <section class="container-tips">
+        <div class="tip">
+          <span class="material-icons">
+          lock
+          </span>
+          <h2 class="tip__title">Confianza</h2>
+          <p class="tip__txt">Puede confiar en que sus pagos 
+            son completamente seguros y protegidos en todo momento.</p>
+          <a href="" class="btn-shop">COMPRAR AHORA</a>
+        </div>
+        <div class="tip">
+          <span class="material-icons">
+          verified_user
+          </span>
+          <h2 class="tip__title">Calidad</h2>
+          <p class="tip__txt">Ofrecemos productos de alta calidad y trabajamos con los mejores fabricantes de la industria.</p>
+          <a href="" class="btn-shop">COMPRAR AHORA</a>
+        </div>
+        <div class="tip">
+          <span class="material-icons">
+          handshake
+          </span>
+          <h2 class="tip__title">Comprometidos</h2>
+          <p class="tip__txt">Siempre estamos dispuestos a escuchar sus inquietudes y resolver cualquier problema que pueda tener.</p>
+          <a href="" class="btn-shop">COMPRAR AHORA</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="footer__section">
+      <h2 class="footer__title">Acerca de nosotros</h2>
+      <p class="footer__txt">Somos una empresa con mas de 5 años en el mercado</p>
+    </div>
+    <div class="footer__section">
+      <h2 class="footer__title">Localización :</h2>
+      <p class="footer__txt">Venezuela, Estado Bolivar, Ciudad Alta vista, Puerto Ordaz</p>
+      <h2 class="footer__title">Contacto</h2>
+      <p class="footer__txt">Telefono: 0424-9104220</p>
+      <p class="footer__txt">Email: LealMarket@gmail.com</p>
+    </div>
+    <div class="footer__section">
+      <h2 class="footer__title">Link rapidos</h2>
+      <a href="" class="footer__link">Inicio</a>
+      <a href="" class="footer__link">Nosotros</a>
+      <a href="" class="footer__link">Caracteristicas</a>
+      <a href="" class="footer__link">Tienda</a>
+      <a href="" class="footer__link">Contactactanos</a>
+    </div>
+    <div class="footer__section">
+      <h2 class="footer__title">Registrate</h2>
+      <p class="footer__txt">Al suscribirte a la lista de emails, podras recibir ofertas especiales.</p>
+      <input type="email" class="footer__input" placeholder="Ingresa tu correo">
+    </div>
+    <p class="copy">© 2023 Lealmarket. All Rights Reserved | Design by fujimant</p>
+  </footer>
+    <script src="js/slider.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>
